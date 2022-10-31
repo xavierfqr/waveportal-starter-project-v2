@@ -1,0 +1,82 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: lightblue;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background: #a2d2ff;
+  font-weight: 700;
+  color: #444;
+}
+
+.waveCount {
+  border-radius: 20px;
+  margin-top: 16px;
+  padding: 8px;
+  color: #a2d2ff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.messageArea {
+  resize: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 5px;
+}
+
+.messageCard {
+  background-color: #caf0f8;
+  margin-top: 16px;
+  padding: 6px;
+  border-radius: 8px
+}
+
+.rightMessageCard {
+  margin-left: 32px;
+  background-color: #0096c7;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.leftMessageCard {
+  margin-right: 32px;
+  background-color: #b8b8ff;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.messageWrapper {
+  display: flex;
+  flex-direction: column;
+}
